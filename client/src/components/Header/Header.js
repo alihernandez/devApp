@@ -1,15 +1,13 @@
 import React from 'react';
-import { Jumbotron, Container } from 'reactstrap';
+
 
 const Header = (props) => {
   return (
     <div>
-      <Jumbotron fluid>
-        <Container fluid>
-          <h1 className="display-3">Fluid jumbotron</h1>
-          <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </Container>
-      </Jumbotron>
+      <p>Hello</p>
+      <p>I am Ali Hernandez</p>
+      <p>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</p>
+      
     </div>
   );
 };
