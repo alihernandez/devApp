@@ -6,11 +6,12 @@ import NavBar from './components/NavBar/NavBar';
 import Header from './components/Header/Header';
 import Portfolio from './components/Portfolio/Portfolio';
 import CircularDeterminate from './components/ProgressBars/ProgressBars';
-import HeaderImg from './images/header-background.png';
+
+// style={{ backgroundImage: `url(${HeaderImg})`, backgroundRepeat: 'scroll', backgroundSize: 'cover'}}
 
 function App() {
   return (
-    <div className="App" style={{ backgroundImage: `url(${HeaderImg})` }}>
+    <div className="App" >
       <NavBar />
       <Header />
       <CircularDeterminate />

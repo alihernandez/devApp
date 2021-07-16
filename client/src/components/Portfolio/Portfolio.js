@@ -16,9 +16,10 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
+    // backgroundColor: hsla(0, 100%, 100%, 0.5),
     height: 650,
     margin:'4rem',
+    
   },
   imageList: {
     border: 'solid',

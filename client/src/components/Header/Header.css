@@ -1,8 +1,8 @@
-.header{
+
+.aboutMe{
+    background-color: rgba(124, 124, 124, 0.5);
     margin: 2.5rem;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
-    background: transparent;
-    background-color: #636363;
-}
+    font-size: 25px;
+};

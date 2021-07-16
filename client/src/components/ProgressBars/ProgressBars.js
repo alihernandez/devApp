@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import './ProgressBars.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -9,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
+    // backgroundColor: theme.palette.background.paper,
     height: 650,
     margin:'4rem',
     '& > * + *': {
@@ -33,7 +34,7 @@ export default function CircularDeterminate() {
   }, []);
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="circles">
         <h4>HTML 85%</h4>
       <CircularProgress variant="determinate" value={85} />
       <br />
