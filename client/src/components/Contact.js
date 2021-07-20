@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
-import imgBack from "../images/im4.jpg";
+import imgBack from "../images/contactIcon.png";
 import load1 from "../images/load2.gif";
 import axios from "axios";
 import { toast } from "react-toastify";

@@ -1,0 +1,24 @@
+h1, h6, p, .footer {
+    color: rgb(212, 212, 211);
+    background-color: rgba(0, 0, 0, 0);
+}
+
+/* .footer{
+    height: 5rem;
+} */
+
+Button {
+    padding: 3rem;
+}
+
+.socialLinks {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.fContent {
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+#gitHuBFoo {
+    height: min-content;
+}
