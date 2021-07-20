@@ -12,9 +12,10 @@ const Header = (props) => {
     
       
       <div className="aboutMe">
-      <p>Hello</p>
-      <p>I am Ali Hernandez</p>
-      <p>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</p>
+      <h7>Hello</h7>
+      <h7>I am Ali Hernandez</h7>
+      <h7>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</h7>
+      
       <div className="socialIcons">
 
         <a href="https://github.com/alihernandez">

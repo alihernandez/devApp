@@ -34,6 +34,8 @@ export default function CircularDeterminate() {
 
   return (
     <div className={classes.root} id="circles">
+      <h2>Skills:</h2>
+      <br />
       <br />
       <h4>HTML 85%</h4>
       <CircularProgress variant="determinate" value={85} />

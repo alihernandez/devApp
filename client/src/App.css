@@ -6,7 +6,9 @@
 }
 
 .App{
-  background-repeat: repeat-y;
   background-image: url(./images/tree.jpg);
-  background-blend-mode: normal;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  /* background-blend-mode: normal; */
 }
