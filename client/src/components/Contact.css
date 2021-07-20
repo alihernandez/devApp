@@ -1,7 +1,10 @@
 .main-container{
+    margin: 8rem auto;
+  width: 50%;
+  
     background-color: rgb(63, 63, 63);
     background-color: rgba(124, 124, 124, 0.5);
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .central-form{

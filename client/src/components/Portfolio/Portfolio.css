@@ -4,3 +4,9 @@
     background-color: hsla(0, 100%, 100%, 0.5);
     
 }
+
+#projects {
+    margin: 8rem auto;
+  width: 50%;
+  
+}

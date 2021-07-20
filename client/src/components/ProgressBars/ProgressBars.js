@@ -5,14 +5,13 @@ import './ProgressBars.css'
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
-    display: 'flex',
+   
     flexWrap: 'wrap',
     justifyContent: 'space-around',
     overflow: 'hidden',
     // backgroundColor: theme.palette.background.paper,
     height: 650,
-    margin:'4rem',
+    
     '& > * + *': {
       marginLeft: theme.spacing(2),
     },
@@ -35,7 +34,8 @@ export default function CircularDeterminate() {
 
   return (
     <div className={classes.root} id="circles">
-        <h4>HTML 85%</h4>
+      <br />
+      <h4>HTML 85%</h4>
       <CircularProgress variant="determinate" value={85} />
       <br />
       <h4>CSS 75%</h4>
@@ -49,6 +49,7 @@ export default function CircularDeterminate() {
       <br />
       <h4>React JS 60%</h4>
       <CircularProgress variant="determinate" value={progress} />
+        
     </div>
   );
 }

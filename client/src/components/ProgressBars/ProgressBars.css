@@ -1,3 +1,7 @@
 #circles{
   background-color: rgba(124, 124, 124, 0.5);
+  margin: 8rem auto;
+  width: 50%;
+  display: 'flex',
 }
+
