@@ -13,3 +13,9 @@
   min-height: 100%;
   /* background-blend-mode: normal; */
 }
+
+@media only screen and (max-device-width: 1366px) {
+  .App {
+    background-attachment: scroll;
+  }
+}
