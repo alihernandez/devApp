@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Header.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
@@ -6,15 +6,16 @@ import linkIcon from '../../images/linkedin.gif';
 
 
 
-
-const Header = (props) => {
-  return (
+export default class header extends Component {
+  
+    render() {
     
-      
-      <div className="aboutMe">
-      <h7>Hello</h7>
-      <h7>I am Ali Hernandez</h7>
-      <h7>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</h7>
+      return (
+
+      <div className="aboutMe" id="head">
+      <span>Hello</span>
+      <span>I am Ali Hernandez</span>
+      <span>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</span>
       
       <div className="socialIcons">
 
@@ -31,8 +32,7 @@ const Header = (props) => {
 
       </div>
       
-   
+    
   );
+      }
 };
-
-export default Header;

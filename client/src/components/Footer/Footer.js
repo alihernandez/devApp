@@ -3,10 +3,20 @@ import { Link } from "react-router-dom";
 import { Button } from 'reactstrap';
 import gitIcon from '../../images/github.png';
 import linkIcon from '../../images/linkedin.png';
+import { scroller } from "react-scroll";
 import './Footer.css';
 
 
+
 const Footer = () => {
+
+  const scrollToSection = () => {
+    scroller.scrollTo("aboutMe", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
 
     return(
         <div className="footer">
@@ -20,12 +30,12 @@ const Footer = () => {
           <div className="socialLinks col">
   
           <Link to={'/'}>
-          <Button>Home</Button> 
+          <Button onClick={scrollToSection}>Home</Button> 
           </Link>
   
          
   
-          <Link to={'/Contact'}>
+          <Link to={'/'}>
           <Button>Contact</Button> 
           </Link>
           
