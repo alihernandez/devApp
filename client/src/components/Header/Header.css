@@ -25,6 +25,11 @@ h7 {
     border-style: solid;
 }
 
+.selfPic {
+    height: 16rem;
+    width: 8rem;
+}
+
 
 #gitHub {
     margin: 2rem;

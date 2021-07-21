@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './Header.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
+import self from '../../images/self.png';
 // import HeaderImg from '../../images/header-background.png';
 
 
@@ -15,6 +16,10 @@ export default class header extends Component {
       <div className="aboutMe" id="head">
       <span>Hello</span>
       <span>I am Ali Hernandez</span>
+      <br />
+      
+      <img className="selfPic" src={self} alt="devPic" />
+      <br />
       <span>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</span>
       
       <div className="socialIcons">
