@@ -36,7 +36,7 @@ const NavBar = (props) => {
   return (
     <div>
       <Navbar color="dark" dark>
-        <NavbarBrand href="/" className="mr-auto">MongoDB ExpressJS ReactJS NodeJS</NavbarBrand>
+        <NavbarBrand href="/" className="mr-auto">Mountain Pixels Web Development</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>

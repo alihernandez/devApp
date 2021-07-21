@@ -53,7 +53,7 @@ const Footer = () => {
   
           </div>
   
-          <p style={{textAlign:"center"}}>&copy; webDev 2021</p>
+          <p style={{textAlign:"center"}}>&copy; Mountain Pixels 2021</p>
           <a href="/Terms"><p style={{textAlign:"center"}}>Terms & Services</p></a>
           
       </div>
