@@ -10,5 +10,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
+  min-height: 100%;
   /* background-blend-mode: normal; */
 }
