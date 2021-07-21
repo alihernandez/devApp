@@ -70,8 +70,9 @@ const Contact = () => {
 
         <div className="back-form">
           <div className="img-back">
-            <h4>Send your message</h4>
-            <img src={imgBack} alt="" />
+            <h4>Contact me here</h4>
+            <h4>Please include a short message and a good phone number to call.</h4>
+            <img src={imgBack} className="msgImg" alt="" />
           </div>
 
           <form onSubmit={formSubmit}>

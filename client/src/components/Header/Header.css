@@ -26,8 +26,13 @@ h7 {
 }
 
 .selfPic {
-    height: 16rem;
-    width: 8rem;
+    height: 12rem;
+    width: 7rem;
+    opacity: 0.7;
+    border: rgba(176, 196, 222, 0.26);
+    box-shadow: oldlace;
+    border-width: 2px;
+    border-style: groove;
 }
 
 

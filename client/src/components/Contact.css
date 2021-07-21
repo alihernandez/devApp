@@ -24,7 +24,7 @@
 }
 
 .back-form {
-  max-width: 380px;
+  max-width: 175px;
   margin: 0 auto;
 }
 
@@ -41,12 +41,16 @@
   font-style: italic;
 }
 
-.back-form .img-back img {
+.back-form .img-back {
   width: 100%;
 }
 
+.msgImg {
+  width: 60%;
+}
+
 .central-form form {
-  width: auto;
+  width: 75%;
   box-shadow: 0 0 2px 1px rgb(167, 167, 167);
   display: flex;
   padding: 15px;
@@ -82,7 +86,7 @@ form button {
   border: none;
   color: rgb(230, 227, 227);
   font-size: 18px;
-  width: 160px;
+  width: 80px;
 }
 
 form botton:hover {

@@ -1,12 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import ImageList from '@material-ui/core/ImageList';
 import ImageListItem from '@material-ui/core/ImageListItem';
 import ImageListItemBar from '@material-ui/core/ImageListItemBar';
 // import ListSubheader from '@material-ui/core/ListSubheader';
-// import IconButton from '@material-ui/core/IconButton';
-// import InfoIcon from '@material-ui/icons/Info';
+import IconButton from '@material-ui/core/IconButton';
+import InfoIcon from '@material-ui/icons/Info';
+import { Popover, Typography } from '@material-ui/core';
 import itemData from './itemData';
 import './Portfolio.css';
 
@@ -50,6 +52,12 @@ const useStyles = makeStyles((theme) => ({
  */
 export default function TitlebarImageList() {
   const classes = useStyles();
+  const [anchor, setAnchor] = useState(null);
+  const openPopover = (event) => {
+    setAnchor(event.currentTarget);
+  }
+
+
 
   return (
     <div className={classes.root} id="projects">
@@ -66,14 +74,43 @@ export default function TitlebarImageList() {
               subtitle={<Button variant="contained" color="primary" href={item.link}>
               Link
             </Button>}
-              link={<Button variant="contained" color="primary" href="#contained-buttons">
-              Link
-            </Button>}
+            //   link={<Button variant="contained" color="primary" href="#contained-buttons">
+            //   Link
+            // </Button>}
+            actionIcon={
+              <IconButton 
+              aria-label={`info about ${item.description}`} 
+              className={classes.icon}
+              onClick={openPopover}
+              >
+                <InfoIcon />
+              </IconButton>
               
-            />
-            <Button variant="contained" color="primary" href="#contained-buttons">
+            }/>
+            <Popover
+            open={Boolean(anchor)}
+            anchorEl={anchor}
+            anchorOrigin={{
+              vertical: 'top',
+              horizontal: 'right'
+            }}
+            transformOrigin={{
+              vertical: "bottom",
+              horizontal: "left",
+
+            }}
+            aria-label={`info about ${item.description}`} 
+            onClose={() => setAnchor(null)}>
+            
+              <Typography variant='h6'>{`${item.description}`} </Typography>
+            </Popover>
+
+
+
+            {/* <Button variant="contained" color="primary" href="#contained-buttons">
         Link
-      </Button>
+      </Button> */}
+      
           </ImageListItem>
         ))}
       </ImageList>
