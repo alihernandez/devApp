@@ -1,11 +1,37 @@
 import React, { useState } from 'react';
 import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { scroller } from "react-scroll";
 import './NavBar.css';
 
 const NavBar = (props) => {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
+
+  const scrollToContact = () => {
+    scroller.scrollTo("central-form", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
+  const scrollToProjects = () => {
+    scroller.scrollTo("projects", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+
+  const scrollToSkills = () => {
+    scroller.scrollTo("circles", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+  
 
   return (
     <div>
@@ -15,18 +41,16 @@ const NavBar = (props) => {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar>
             <NavItem className="navItem">
-              <NavLink activeStyle={{
-    color: "red"
-  }} href="/components/Header">About</NavLink>
+              <NavLink href="/about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Resume</NavLink>
+              <NavLink onClick={scrollToSkills}>Resume</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/">Projects</NavLink>
+              <NavLink onClick={scrollToProjects}>Projects</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/components/Contact">Contact</NavLink>
+              <NavLink onClick={scrollToContact}>Contact</NavLink>
             </NavItem>
             <NavItem>
               <NavLink href="https://github.com/alihernandez">GitHub</NavLink>

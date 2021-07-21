@@ -64,7 +64,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="main-container">
+    <div className="main-container" id="contactdiv">
       <div className="central-form">
         <h2 className="title">Contact form</h2>
 
