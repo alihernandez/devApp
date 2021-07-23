@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
     height: 650,
     
     '& > * + *': {
-      marginLeft: theme.spacing(2),
+      // marginLeft: theme.spacing(2),
     },
   },
 }));
@@ -37,6 +37,7 @@ export default function CircularDeterminate() {
       <h2>Skills:</h2>
       <br />
       <br />
+      <div className="cirBox"> 
       <h4>HTML 85%</h4>
       <CircularProgress variant="determinate" value={85} />
       <br />
@@ -51,7 +52,11 @@ export default function CircularDeterminate() {
       <br />
       <h4>React JS 60%</h4>
       <CircularProgress variant="determinate" value={progress} />
-        
+
+      </div>
+      <br />
+      <h4><a href="https://docs.google.com/document/d/1HfO7EoBMV-xKG8VwBZy7KIfKpd2i5ta-Kq9GEGOsHKE/edit?usp=sharing">Resume</a></h4>
+
     </div>
   );
 }

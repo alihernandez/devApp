@@ -1,3 +1,12 @@
+.cirBox {
+  max-width: 75%;
+  border: 3px solid rgba(0, 0, 0, 0.445);
+  margin: 0 auto;
+  box-shadow: 0 0 15px 6px rgb(183,176,165);
+  background-color: #e0dfdf9f;
+  /* padding: 2rem; */
+}
+
 #circles{
   background-color: #e0dfdf9f;
   margin: 8rem auto;
@@ -6,9 +15,12 @@
   padding: 70px 0;
   border: 3px solid rgba(0, 0, 0, 0.445);
   text-align: center;
+  box-shadow: 0 0 15px 3px rgb(183,176,165);
 }
 
+
+
 h2 {
-  color: rgba(243, 242, 242, 0.507);
+  color: rgba(0, 0, 0, 0.507);
 }
 

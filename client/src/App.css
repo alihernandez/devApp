@@ -42,3 +42,19 @@
   background-position: 50% 50%;
   opacity: 0.8;
 }
+
+h1, h2 {
+  font-family: LatoBold;
+}
+
+h3, h4 {
+  font-family: LatoReg;
+}
+
+span, p {
+  font-family: Slabo;
+}
+
+ /* {
+  font-family: LatoIt;
+} */
