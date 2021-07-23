@@ -31,6 +31,9 @@ function App() {
                           "value_area": 800
                         }
                       },
+                      "color": {
+                        "value": "#bde4c7"
+                      },
                       "opacity": {
                         "value": 0.2,
                         "random": true,
