@@ -4,9 +4,9 @@ h7 {
     
 }
 .aboutMe {
-    background-color: rgba(124, 124, 124, 0.5);
+    background-color:#e0dfdf9f;
     border: 3px solid rgba(0, 0, 0, 0.445);
-    color: rgba(226, 226, 226, 0.767);
+    color: rgba(0, 0, 0, 0.767);
     margin: 4rem auto;
     width: 50%;
     display: flex;

@@ -4,7 +4,7 @@
   border: 3px solid rgba(0, 0, 0, 0.445);
 
   background-color: rgb(63, 63, 63);
-  background-color: rgba(124, 124, 124, 0.5);
+  background-color: #e0dfdf9f;
   /* min-height: 100vh; */
 }
 
@@ -18,7 +18,7 @@
 }
 
 .central-form h2 {
-  color: rgb(182, 182, 182);
+  color: rgb(12, 12, 12);
   letter-spacing: 0.2rem;
   margin-bottom: 20px;
 }
@@ -36,7 +36,7 @@
 .img-back h4 {
   letter-spacing: 0.3rem;
   font-weight: 400;
-  color: rgb(196, 196, 196);
+  color: rgb(0, 0, 0);
   font-size: 18px;
   font-style: italic;
 }
@@ -51,7 +51,7 @@
 
 .central-form form {
   width: 75%;
-  box-shadow: 0 0 2px 1px rgb(167, 167, 167);
+  box-shadow: 0 0 15px 3px rgb(183,176,165);
   display: flex;
   padding: 15px;
   justify-content: center;
@@ -67,7 +67,7 @@ form p {
 
 form label {
   margin-bottom: 5px;
-  color: rgb(170, 170, 170);
+  color: rgba(0, 0, 0, 0.397);
   letter-spacing: 00.2rem;
 }
 
