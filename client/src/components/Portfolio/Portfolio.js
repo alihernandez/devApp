@@ -24,9 +24,9 @@ const useStyles = makeStyles((theme) => ({
     
   },
   imageList: {
-    border: 'solid',
+    
     width: 725,
-    height: 650,
+    height: 550,
   },
   icon: {
     color: 'rgba(255, 255, 255, 0.54)',
@@ -61,9 +61,10 @@ export default function TitlebarImageList() {
 
   return (
     <div className={classes.root} id="projects">
-      <ImageList rowHeight={180} className={classes.imageList}>
+      <h1 className="proTit" component="div">Previous Projects</h1>
+      <ImageList rowHeight={180} className={classes.imageList} id="pro">
         <ImageListItem key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <h1 component="div">Previous Projects</h1>
+          
         </ImageListItem>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>

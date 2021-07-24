@@ -25,18 +25,25 @@ function App() {
                 params={{
                     particles: {
                       "number": {
-                        "value": 40,
+                        "value": 600,
                         "density": {
                           "enable": true,
                           "value_area": 800
                         }
                       },
                       "color": {
-                        "value": "#bde4c7"
+                        "value": "#fbf9ec"
+                      },
+                      "shape": {
+                        "type": "circle",
+                        "stroke": {
+                          "width": 2,
+                          "color": "#fbf9ec"
+                        },
                       },
                       "opacity": {
                         "value": 0.2,
-                        "random": true,
+                        "random": false,
                         "anim": {
                           "enable": true,
                           "speed": 1,
@@ -44,6 +51,28 @@ function App() {
                           "sync": false
                         }
                       },
+                      "line_linked": {
+                        "enable": false,
+                        "distance": 300,
+                        "color": "#ffffff",
+                        "opacity": 0.1,
+                        "width": 0.5
+                      },
+                      "move": {
+                        "enable": true,
+                        "speed": 1,
+                        "direction": "bottom",
+                        "random": false,
+                        "straight": true,
+                        "out_mode": "out",
+                        "bounce": true,
+                        "attract": {
+                          "enable": false,
+                          "rotateX": 600,
+                          "rotateY": 1200
+                        }
+                      
+                    },
                       "interactivity": {
                         "detect_on": "canvas",
                         "events": {
@@ -66,7 +95,7 @@ function App() {
                           },
                           "bubble": {
                             "distance": 800,
-                            "size": 20,
+                            "size": 60,
                             "duration": 2,
                             "opacity": 0.8,
                             "speed": 1
@@ -83,9 +112,6 @@ function App() {
                           }
                         }
                       },
-                        shape: {
-                          "type": "star"
-                        }
                     }
                 }}>
                   </Particles>

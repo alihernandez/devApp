@@ -1,8 +1,10 @@
 .educationDiv {
     background-color: rgba(0, 0, 0, 0.582);
     border: 3px solid rgba(0, 0, 0, 0.445);
+    box-shadow: 0 0 15px 14px rgba(0, 0, 0, 0.507);
     margin: 4rem auto;
-    /* width: 50%; */
+    font-size: 20px;
+    width: 50%;
     display: flex;
     justify-content: center;
     flex-direction: column;
