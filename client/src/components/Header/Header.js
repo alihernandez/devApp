@@ -3,7 +3,7 @@ import './Header.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
 import self from '../../images/self.png';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 // import HeaderImg from '../../images/header-background.png';
 
 

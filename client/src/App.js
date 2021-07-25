@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router, Switch
   
 } from 'react-router-dom';
-import {ToastContainer} from 'react-toastify'
+// import {ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 import Contact from './components/Contact';
 import Education from './components/Education/Education';
@@ -13,7 +13,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import CircularDeterminate from './components/ProgressBars/ProgressBars';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
-import Particles from 'react-particles-js';
+// import Particles from 'react-particles-js';
 
 // style={{ backgroundImage: `url(${HeaderImg})`, backgroundRepeat: 'scroll', backgroundSize: 'cover'}}
 
