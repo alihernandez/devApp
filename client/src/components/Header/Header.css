@@ -48,9 +48,9 @@
     background-color: rgba(124, 124, 124, 0.5);
 }
 
-#typeAni {
-    width: 35%;
-  animation: typing 3.5s steps(22), blink .5s step-end infinite alternate;
+/* #typeAni {
+    width: 25%;
+  animation: typing 3.5s steps(22), blink 1.0s step-end infinite alternate;
   white-space: normal;
   overflow: visible;
   border-right: 1px solid;
@@ -67,4 +67,4 @@
     70% {
       border-color: transparent
     }
-  }
+  } */

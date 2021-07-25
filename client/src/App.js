@@ -1,6 +1,6 @@
 import './App.css'; 
 import {
-  BrowserRouter as Router,
+  BrowserRouter as Router, Switch
   
 } from 'react-router-dom';
 import {ToastContainer} from 'react-toastify'
@@ -20,17 +20,22 @@ import Particles from 'react-particles-js';
 function App() {
   return (
     <Router>
+      <Switch>
     <div className="App" >
-    <Particles id="particles-js"
+      
+      <ScrollToTop />
+      
+      <NavBar className="mainCont" />
+      {/* <Particles id="particles-js"
                 params={{
-                    // particles: {
-                    //   "number": {
-                    //     "value": 600,
-                    //     "density": {
-                    //       "enable": true,
-                    //       "value_area": 800
-                    //     }
-                    //   },
+                    particles: {
+                      "number": {
+                        "value": 100,
+                        "density": {
+                          "enable": false,
+                          "value_area": 800
+                        }
+                      },
                     //   "color": {
                     //     "value": "#fbf9ec"
                     //   },
@@ -51,28 +56,28 @@ function App() {
                     //       "sync": false
                     //     }
                     //   },
-                    //   "line_linked": {
-                    //     "enable": false,
-                    //     "distance": 300,
-                    //     "color": "#ffffff",
-                    //     "opacity": 0.1,
-                    //     "width": 0.5
-                    //   },
-                    //   "move": {
-                    //     "enable": true,
-                    //     "speed": 1,
-                    //     "direction": "bottom",
-                    //     "random": false,
-                    //     "straight": true,
-                    //     "out_mode": "out",
-                    //     "bounce": true,
-                    //     "attract": {
-                    //       "enable": false,
-                    //       "rotateX": 600,
-                    //       "rotateY": 1200
-                    //     }
+                      "line_linked": {
+                        "enable": false,
+                        "distance": 300,
+                        "color": "#ffffff",
+                        "opacity": 1,
+                        "width": 0.5
+                      },
+                      "move": {
+                        "enable": true,
+                        "speed": 1,
+                        "direction": "bottom",
+                        "random": false,
+                        "straight": true,
+                        "out_mode": "out",
+                        "bounce": true,
+                        "attract": {
+                          "enable": false,
+                          "rotateX": 600,
+                          "rotateY": 1200
+                        }
                       
-                    // },
+                    },
                     //   "interactivity": {
                     //     "detect_on": "canvas",
                     //     "events": {
@@ -112,20 +117,21 @@ function App() {
                     //       }
                     //     }
                     //   },
-                    // }
+                    }
                 }}>
-                  </Particles>
-      <ScrollToTop />
-      <NavBar className="mainCont" />
+                  </Particles> */}
+      
       <Header exact path="/about" className="mainCont" />
+      
       <Education className="mainCont" />
       <CircularDeterminate className="mainCont" />
       <Portfolio className="mainCont" />
-      <ToastContainer className="mainCont" />
       <Contact path="/contact" className="mainCont" />
       <Footer className="mainCont" />
       
     </div>
+
+    </Switch>
     </Router>
   );
 }
