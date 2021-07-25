@@ -3,6 +3,7 @@ import './Header.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
 import self from '../../images/self.png';
+// import { Link } from 'react-router-dom';
 // import HeaderImg from '../../images/header-background.png';
 
 
@@ -13,9 +14,9 @@ export default class header extends Component {
     
       return (
 
-      <div className="aboutMe" id="head">
+      <div className="aboutMe" >
       <span>Hello</span>
-      <span>I am Ali Hernandez</span>
+      <span id="typeAni">I am Ali Hernandez</span>
       <br />
       
       <img className="selfPic" src={self} alt="devPic" />

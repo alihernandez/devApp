@@ -1,10 +1,11 @@
 .main-container {
+  color: rgb(255, 255, 255);
   margin: 8rem auto;
   width: 50%;
   border: 3px solid rgba(0, 0, 0, 0.445);
-  box-shadow: 0 0 15px 14px rgb(183,176,165);
-  background-color: rgb(63, 63, 63);
-  background-color: #e0dfdf9f;
+  box-shadow: 0 0 15px 14px rgba(0, 0, 0, 0.507);
+  /* background-color: rgb(63, 63, 63); */
+  background-color: rgba(0, 0, 0, 0.582);
   /* min-height: 100vh; */
 }
 
@@ -18,7 +19,8 @@
 }
 
 .central-form h2 {
-  color: rgb(12, 12, 12);
+  /* color: rgb(12, 12, 12); */
+  color: rgb(255, 255, 255);
   letter-spacing: 0.2rem;
   margin-bottom: 20px;
 }
@@ -36,7 +38,8 @@
 .img-back h4 {
   letter-spacing: 0.3rem;
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  /* color: rgb(0, 0, 0); */
+  color: rgb(255, 255, 255);
   font-size: 18px;
   /* font-style: italic; */
 }

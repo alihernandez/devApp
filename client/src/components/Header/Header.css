@@ -1,8 +1,8 @@
-h7 {
+/* h7 {
     background-color: rgba(124, 124, 124, 0.075);
     margin: 1rem auto;
     
-}
+} */
 .aboutMe {
     background-color: rgba(0, 0, 0, 0.582);
     border: 3px solid rgba(0, 0, 0, 0.445);
@@ -47,3 +47,24 @@ h7 {
     margin: 2rem; 
     background-color: rgba(124, 124, 124, 0.5);
 }
+
+/* #typeAni {
+    width: 25%;
+  animation: typing 3.5s steps(22), blink 1.0s step-end infinite alternate;
+  white-space: normal;
+  overflow: visible;
+  border-right: 1px solid;
+  font-size: 1 em;
+}
+
+@keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    70% {
+      border-color: transparent
+    }
+  } */
