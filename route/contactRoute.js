@@ -26,15 +26,11 @@ router.post('/contact', (req, res)=> {
 
     //create a transporter
     let smtpTransport = nodemailer.createTransport({
-
-        service:'Gmail',
-        //connect port
-        port:465,
-
-        //authenticate
-        auth:{
-            user: process.env.user,
-            pass: process.env.pass
+        host: "smtp.mailtrap.io",
+        port: 2525,
+        auth: {
+          user: process.env.user,
+          pass: process.env.pass
         }
     })
 
