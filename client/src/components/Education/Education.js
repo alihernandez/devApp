@@ -15,7 +15,7 @@ const Education = () => {
             <table className="educationData">
                 <span>Contact: </span>
                 <ul>
-                    <p>ali.hernandez9two@gmail.com</p>
+                    <p id="emailAdd">ali.hernandez9two@gmail.com</p>
                 </ul>
             </table>
             

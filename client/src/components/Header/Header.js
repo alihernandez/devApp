@@ -15,8 +15,8 @@ export default class header extends Component {
       return (
 
       <div className="aboutMe" >
-      <span>Hello</span>
-      <span id="typeAni">I am Ali Hernandez</span>
+      <span className="glitch">Hello</span>
+      <span className="glitch">I am Ali Hernandez</span>
       <br />
       
       <img className="selfPic" src={self} alt="devPic" />

@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-around',
     overflow: 'hidden',
     // backgroundColor: theme.palette.background.paper,
-    height: 650,
+    height: 675,
+    
     
     '& > * + *': {
       // marginLeft: theme.spacing(2),
@@ -38,21 +39,20 @@ export default function CircularDeterminate() {
       <br />
       <br />
       <div className="cirBox"> 
-      <h4>HTML 85%</h4>
-      <CircularProgress variant="determinate" value={85} />
+      <h4>HTML</h4>
       <br />
-      <h4>CSS 75%</h4>
-      <CircularProgress variant="determinate" value={75} />
+      <h4>CSS</h4>
       <br />
-      <h4>JavaScript 65%</h4>
-      <CircularProgress variant="determinate" value={65} />
+      <h4>JavaScript</h4>
       <br />
-      <h4>nodeJS 70%</h4>
-      <CircularProgress variant="determinate" value={70} />
+      <h4>ReactJS</h4>
       <br />
-      <h4>React JS 60%</h4>
-      <CircularProgress variant="determinate" value={progress} />
-
+      <h4>NodeJS</h4>
+      <br />
+      <h4>MongoDB</h4>
+      <br />
+      <h4>MySQL</h4>
+      <br />
       </div>
       <br />
       <h4><a href="https://docs.google.com/document/d/1HfO7EoBMV-xKG8VwBZy7KIfKpd2i5ta-Kq9GEGOsHKE/edit?usp=sharing">Resume</a></h4>
