@@ -16,3 +16,9 @@
 .educationData, th, li, td, table {
     background-color: rgba(124, 124, 124, 0.075);
 }
+
+#emailAdd {
+    font-size: calc(10px + (26 - 10) * ((100vw - 300px) / (1600 - 300)));
+    text-align: center;
+    padding-right: 2rem;
+}

@@ -30,10 +30,12 @@
     height: 12rem;
     width: 7rem;
     opacity: 0.7;
-    border: rgba(176, 196, 222, 0.26);
-    box-shadow: oldlace;
-    border-width: 2px;
-    border-style: groove;
+    /* border-radius: 25%; */
+  background-color: #fff;
+  box-shadow:
+    0 0 60px 30px rgb(183,176,165),  /* inner*/
+    0 0 100px 60px rgb(54, 54, 54), /* middle*/
+    0 0 140px 90px rgb(183,176,165); /* outer*/
 }
 
 
