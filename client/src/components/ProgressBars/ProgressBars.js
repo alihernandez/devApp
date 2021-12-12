@@ -10,7 +10,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-around',
     overflow: 'hidden',
     // backgroundColor: theme.palette.background.paper,
-    height: 650,
+    height: 675,
+    
     
     '& > * + *': {
       // marginLeft: theme.spacing(2),
