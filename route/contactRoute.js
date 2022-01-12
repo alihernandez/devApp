@@ -1,7 +1,9 @@
+
 const router = require('express').Router();
 const nodemailer = require('nodemailer');
-const dotenv = require('dotenv');
-dotenv.config();
+const dotenv = require('dotenv').config();
+// const dotenv = require('dotenv');
+// dotenv.config();
 
 
 // in order to send mail you have to follow three steps:
