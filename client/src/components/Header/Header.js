@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
+import './flicker.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
 import self from '../../images/self.png';
@@ -15,8 +16,8 @@ export default class header extends Component {
       return (
 
       <div className="aboutMe" >
-      <span className="glitch">Hello</span>
-      <span className="glitch">I am Ali Hernandez</span>
+      <span id="A">Hello</span>
+      <span id="A">I am Ali Hernandez</span>
       <br />
       
       <img className="selfPic" src={self} alt="devPic" />
@@ -24,12 +25,12 @@ export default class header extends Component {
       <span>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</span>
       
       <div className="socialIcons">
-
-        <a href="https://github.com/alihernandez">
+        <span>Github:</span>
+        <a id="L" href="https://github.com/alihernandez">
         <img src={gitIcon} id="gitHub" alt="githubIcon"/>
         </a>
-
-        <a href="https://www.linkedin.com/in/ali-hernandez-96b1b71a9/">
+        <span>LinkedIn:</span>
+        <a id="I" href="https://www.linkedin.com/in/ali-hernandez-96b1b71a9/">
         <img src ={linkIcon} id="linkedIn" alt="linkedinIcon"/>
         </a>
 
