@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './Header.css';
-import '../styles.css';
 import './flicker.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
@@ -10,17 +9,18 @@ import self from '../../images/self.png';
 
 
 
-export default function Header() {
+export default class header extends Component {
+  
+    render() {
     
       return (
 
-      <div className='mainContains'>
+      <div className="aboutMe" >
       <span id="A">Hello</span>
       <span id="A">I am Ali Hernandez</span>
       <br />
-      <div >
+      
       <img className="selfPic" src={self} alt="devPic" />
-      </div>
       <br />
       <span>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</span>
       
@@ -41,5 +41,5 @@ export default function Header() {
       
     
   );
-      };
-
+      }
+};

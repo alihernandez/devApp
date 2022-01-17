@@ -1,11 +1,10 @@
 import React from "react";
-// import './Education.css';
-import '../styles.css';
+import './Education.css';
 
 const Education = () => {
 
     return(
-        <div className="mainContains">
+        <div className="educationDiv">
             <table className="educationData">
                 <span>Education: </span>
                 <ul>
