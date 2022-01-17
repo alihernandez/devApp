@@ -2,12 +2,12 @@
     background-color: rgb(0, 0, 0);
     box-shadow:
     0 0 60px 30px rgb(0, 0, 0),  /* inner*/
-    0 0 100px 60px rgba(0, 0, 0, 0.897), /* middle*/
-    0 0 140px 90px rgba(0, 0, 0, 0.37); /* outer*/
+    0 0 100px 60px rgba(0, 0, 0, 0.897); /* middle*/
+    /* 0 0 140px 90px rgba(0, 0, 0, 0.37); outer */
 
     margin: 4rem auto;
     font-size: 20px;
-    width: 75%;
+    width: 60%;
     display: flex;
     justify-content: center;
     flex-direction: column;
