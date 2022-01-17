@@ -1,6 +1,5 @@
 .infoContains {
     background-color: rgb(0, 0, 0);
-    border: 3px solid rgba(0, 0, 0, 0.445);
     box-shadow:
     0 0 60px 30px rgb(0, 0, 0),  /* inner*/
     0 0 100px 60px rgba(0, 0, 0, 0.897), /* middle*/
@@ -25,7 +24,7 @@
   box-shadow:
     0 0 60px 30px rgb(230, 227, 224),  /* inner*/
     0 0 100px 60px rgb(54, 54, 54), /* middle*/
-    0 0 140px 90px rgb(85, 82, 77); /* outer*/
+    0 0 140px 90px rgb(183,176,165); /* outer*/
 }
 
 
