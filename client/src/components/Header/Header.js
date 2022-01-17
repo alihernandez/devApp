@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css';
+import '../styles.css';
 import './flicker.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
@@ -15,7 +16,7 @@ export default class header extends Component {
     
       return (
 
-      <div className="aboutMe" >
+      <div className="mainContains" >
       <span id="A">Hello</span>
       <span id="A">I am Ali Hernandez</span>
       <br />

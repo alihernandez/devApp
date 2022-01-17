@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Contact.css";
+import "./styles.css";
 import imgBack from "../images/contactIcon.png";
 import load1 from "../images/load2.gif";
 import axios from "axios";
@@ -64,6 +65,7 @@ const Contact = () => {
   };
 
   return (
+    <div className="mainContains">
     <div className="main-container" id="contactdiv">
       <div className="central-form">
         <h2 className="title">Contact form</h2>
@@ -118,6 +120,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
+    </div>
     </div>
   );
 };

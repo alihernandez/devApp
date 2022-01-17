@@ -1,21 +1,14 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import CircularProgress from '@material-ui/core/CircularProgress';
 import './ProgressBars.css'
+import '../styles.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {
    
     flexWrap: 'wrap',
     justifyContent: 'space-around',
-    overflow: 'hidden',
-    // backgroundColor: theme.palette.background.paper,
     height: 675,
-    
-    
-    '& > * + *': {
-      // marginLeft: theme.spacing(2),
-    },
   },
 }));
 
@@ -34,6 +27,7 @@ export default function CircularDeterminate() {
   }, []);
 
   return (
+    <div className='mainContains'>
     <div className={classes.root} id="circles">
       <h2>Skills:</h2>
       <br />
@@ -52,10 +46,12 @@ export default function CircularDeterminate() {
       <h4>MongoDB</h4>
       <br />
       <h4>MySQL</h4>
-      <br />
+      <h4><a href="https://docs.google.com/document/d/1HfO7EoBMV-xKG8VwBZy7KIfKpd2i5ta-Kq9GEGOsHKE/edit?usp=sharing">Resume</a></h4>
       </div>
       <br />
-      <h4><a href="https://docs.google.com/document/d/1HfO7EoBMV-xKG8VwBZy7KIfKpd2i5ta-Kq9GEGOsHKE/edit?usp=sharing">Resume</a></h4>
+      
+    
+      </div>
 
     </div>
   );

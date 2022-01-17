@@ -60,6 +60,7 @@ export default function TitlebarImageList() {
 
 
   return (
+    <div className='mainContains'>
     <div className={classes.root} id="projects">
       <h1 className="proTit" component="div">Previous Projects</h1>
       <ImageList rowHeight={180} className={classes.imageList} id="pro">
@@ -115,6 +116,7 @@ export default function TitlebarImageList() {
           </ImageListItem>
         ))}
       </ImageList>
+    </div>
     </div>
   );
 }

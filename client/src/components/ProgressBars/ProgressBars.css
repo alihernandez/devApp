@@ -1,22 +1,26 @@
 .cirBox {
-  max-width: 75%;
+  max-width: 95%;
   border: 3px solid rgba(0, 0, 0, 0.445);
   margin: 0 auto;
   box-shadow: 0 0 15px 6px rgb(183,176,165);
   background-color: #e0dfdf9f;
+  margin-bottom: 5.5rem;
   /* padding: 2rem; */
 }
 
 #circles{
   background-color: rgba(0, 0, 0, 0.582);
   margin: 8rem auto;
-  width: 50%;
+  width: 75%;
   display: 'flex';
-  padding: 70px 0;
+  padding: 2.5rem 0;
   border: 3px solid rgba(0, 0, 0, 0.445);
   text-align: center;
-  box-shadow: 0 0 15px 14px rgba(0, 0, 0, 0.507);
-  margin-bottom: 2.5rem;
+  box-shadow:
+    0 0 60px 30px rgb(230, 227, 224),  /* inner*/
+    0 0 100px 60px rgb(54, 54, 54); /* middle*/
+   
+  
 }
 
 
