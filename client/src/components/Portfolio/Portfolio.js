@@ -61,7 +61,7 @@ export default function TitlebarImageList() {
 
   return (
     <div className='projectContains'>
-    <div className={classes.root} id="projects">
+    <div id="projects">
       <h1 className="proTit" component="div">Previous Projects</h1>
       <ImageList rowHeight={180} className={classes.imageList} id="pro">
         <ImageListItem key="Subheader" cols={2} style={{ height: 'auto' }}>
