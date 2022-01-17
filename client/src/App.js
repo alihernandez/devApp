@@ -13,9 +13,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 import CircularDeterminate from './components/ProgressBars/ProgressBars';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
-// import Particles from 'react-particles-js';
 
-// style={{ backgroundImage: `url(${HeaderImg})`, backgroundRepeat: 'scroll', backgroundSize: 'cover'}}
 
 function App() {
   return (
@@ -25,15 +23,15 @@ function App() {
       
       <ScrollToTop />
       
-      <NavBar className="mainCont" />
+      <NavBar  />
       
-      <Header exact path="/about" className="mainCont" />
+      <Header exact path="/about"  />
       
-      <Education className="mainCont" />
-      <CircularDeterminate className="mainCont" />
-      <Portfolio className="mainCont" />
-      <Contact path="/contact" className="mainCont" />
-      <Footer className="mainCont" />
+      <Education  />
+      <CircularDeterminate  />
+      <Portfolio  />
+      <Contact path="/contact"  />
+      <Footer  />
       
     </div>
 
