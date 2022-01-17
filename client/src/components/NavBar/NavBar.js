@@ -17,7 +17,7 @@ export default function NavBar(props) {
   };
 
   const scrollToProjects = () => {
-    scroller.scrollTo("mainContains", {
+    scroller.scrollTo("projects", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
@@ -25,7 +25,7 @@ export default function NavBar(props) {
   };
 
   const scrollToSkills = () => {
-    scroller.scrollTo("cirBox", {
+    scroller.scrollTo("circles", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
