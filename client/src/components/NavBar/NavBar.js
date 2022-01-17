@@ -3,7 +3,7 @@ import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } f
 import { scroller } from "react-scroll";
 import './NavBar.css';
 
-const NavBar = (props) => {
+export default function NavBar(props) {
   const [collapsed, setCollapsed] = useState(true);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
@@ -17,7 +17,7 @@ const NavBar = (props) => {
   };
 
   const scrollToProjects = () => {
-    scroller.scrollTo("projects", {
+    scroller.scrollTo("mainContains", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
@@ -25,7 +25,7 @@ const NavBar = (props) => {
   };
 
   const scrollToSkills = () => {
-    scroller.scrollTo("circles", {
+    scroller.scrollTo("cirBox", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
@@ -34,7 +34,6 @@ const NavBar = (props) => {
   
 
   return (
-    <div>
       <Navbar color="dark" dark>
         <NavbarBrand href="/" className="mr-auto">Mountain Pixels Web Development</NavbarBrand>
         <NavbarToggler onClick={toggleNavbar} className="mr-2" />
@@ -58,8 +57,7 @@ const NavBar = (props) => {
           </Nav>
         </Collapse>
       </Navbar>
-    </div>
-  );
-}
+    
+  )};
 
-export default NavBar;
+
