@@ -1,11 +1,13 @@
-h1, h6, p, .footer {
+.footer {
+    width: 100%;
+    box-shadow: 0 0 15px 14px rgba(255, 255, 255, 0.781);
+    
+    background-color: rgba(0, 0, 0, 0.932);
+}
+h1, h6, p {
     color: rgb(212, 212, 211);
     background-color: rgba(0, 0, 0, 0);
 }
-
-/* .footer{
-    height: 5rem;
-} */
 
 Button {
     padding: 3rem;

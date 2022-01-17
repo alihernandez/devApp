@@ -1,12 +1,10 @@
 .main-container {
   color: rgb(255, 255, 255);
   margin: 8rem auto;
-  width: 50%;
+  width: 85%;
   border: 3px solid rgba(0, 0, 0, 0.445);
-  box-shadow: 0 0 15px 14px rgba(0, 0, 0, 0.507);
-  /* background-color: rgb(63, 63, 63); */
-  background-color: rgba(0, 0, 0, 0.582);
-  /* min-height: 100vh; */
+  box-shadow: 0 0 15px 14px rgba(207, 205, 205, 0.507);
+  background-color: rgba(85, 83, 83, 0.479);
 }
 
 .central-form {

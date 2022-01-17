@@ -5,6 +5,7 @@ import gitIcon from '../../images/github.png';
 import linkIcon from '../../images/linkedin.png';
 import { scroller } from "react-scroll";
 import './Footer.css';
+import '../styles.css';
 
 
 
@@ -19,6 +20,7 @@ const Footer = () => {
   };
 
     return(
+      <div className="mainContain">
         <div className="footer">
         <div className="fContent">
         
@@ -56,6 +58,7 @@ const Footer = () => {
           <p style={{textAlign:"center"}}>&copy; Mountain Pixels 2021</p>
           <a href="/Terms"><p style={{textAlign:"center"}}>Terms & Services</p></a>
           
+      </div>
       </div>
 
     );
