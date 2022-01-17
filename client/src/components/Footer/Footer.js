@@ -20,7 +20,7 @@ const Footer = () => {
   };
 
     return(
-      <div className="mainContain">
+     
         <div className="footer">
         <div className="fContent">
         
@@ -59,7 +59,7 @@ const Footer = () => {
           <a href="/Terms"><p style={{textAlign:"center"}}>Terms & Services</p></a>
           
       </div>
-      </div>
+      
 
     );
 }
