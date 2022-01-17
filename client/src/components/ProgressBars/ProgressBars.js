@@ -27,7 +27,7 @@ export default function CircularDeterminate() {
   }, []);
 
   return (
-    <div className='mainContains'>
+    <div className='proContains'>
     <div className={classes.root} id="circles">
       <h2>Skills:</h2>
       <br />

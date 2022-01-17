@@ -5,7 +5,7 @@ import '../styles.css';
 const Education = () => {
 
     return(
-        <div className="mainContains">
+        <div className="educationContains">
         <div className="educationDiv">
             <table className="educationData">
                 <span>Education: </span>

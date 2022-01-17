@@ -23,6 +23,7 @@ export default class header extends Component {
       
       <img className="selfPic" src={self} alt="devPic" />
       <br />
+      <div className='infoContains'>
       <span>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</span>
       
       <div className="socialIcons">
@@ -34,6 +35,8 @@ export default class header extends Component {
         <a id="I" href="https://www.linkedin.com/in/ali-hernandez-96b1b71a9/">
         <img src ={linkIcon} id="linkedIn" alt="linkedinIcon"/>
         </a>
+
+        </div>
 
 
       </div>
