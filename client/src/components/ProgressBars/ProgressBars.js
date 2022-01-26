@@ -14,17 +14,17 @@ const useStyles = makeStyles((theme) => ({
 
 export default function CircularDeterminate() {
   const classes = useStyles();
-  const [progress, setProgress] = React.useState(0);
+  // const [progress, setProgress] = React.useState(0);
 
-  React.useEffect(() => {
-    const timer = setInterval(() => {
-      setProgress((prevProgress) => (prevProgress >= 60 ? 0 : prevProgress + 10));
-    }, 800);
+  // React.useEffect(() => {
+  //   const timer = setInterval(() => {
+  //     setProgress((prevProgress) => (prevProgress >= 60 ? 0 : prevProgress + 10));
+  //   }, 800);
 
-    return () => {
-      clearInterval(timer);
-    };
-  }, []);
+  //   return () => {
+  //     clearInterval(timer);
+  //   };
+  // }, []);
 
   return (
     <div className='proContains'>

@@ -55,6 +55,7 @@ export default function TitlebarImageList() {
   const [anchor, setAnchor] = useState(null);
   const openPopover = (event) => {
     setAnchor(event.currentTarget);
+    console.log(event);
   }
 
 
@@ -91,6 +92,7 @@ export default function TitlebarImageList() {
             }/>
             <Popover
             open={Boolean(anchor)}
+            container={ImageListItemBar.title}
             anchorEl={anchor}
             anchorOrigin={{
               vertical: 'top',
