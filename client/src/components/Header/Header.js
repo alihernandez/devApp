@@ -23,7 +23,7 @@ export default class header extends Component {
       
       <img className="selfPic" src={self} alt="devPic" />
       <br />
-      <div className='infoContains'>
+      <div className='headerContains'>
       <span>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</span>
       
       <div className="socialIcons">
