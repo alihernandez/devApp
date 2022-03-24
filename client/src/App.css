@@ -16,15 +16,6 @@ html,body
 
 .App{
   background-color: #78afb1;
-  /* overflow-x: hidden;  */
-  /* background-image: url(./images/tree.jpg), url(./images/underwtr.jpg), url(./images/planets-5923806_1920.jpg); */
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed, local, fixed;
-  background-position: top right, 
-  center left; 
-  min-height: 100vh;
-  background-blend-mode: screen ; */
 }
 
 @media only screen and (max-device-width: 1366px) {
@@ -37,7 +28,6 @@ html,body
   }
 }
 
-
 h1, h2 {
   font-family: LatoBold;
 }
@@ -49,3 +39,51 @@ h3, h4 {
 span, p {
   font-family: Slabo;
 }
+
+.mainContainer {
+  background-color: #78b17c;
+    border: 3px solid rgba(0, 0, 0, 0.445);
+    box-shadow:
+    0 0 60px 30px rgb(0, 0, 0),  /* inner*/
+    0 0 100px 60px rgba(0, 0, 0), /* middle*/
+    0 0 140px 90px rgba(252, 250, 250, 0); /* outer*/
+    color: rgb(255, 249, 249);
+    margin: 4rem auto;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+.subContainer {
+  background-color: #7986b1d5;
+  height: fit-content;
+    border: 3px solid rgba(0, 0, 0, 0.445);
+    margin: 4rem auto;
+    margin-top: 15px;
+    font-size: 20px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.modContainer {
+  background-color: #78afb1;
+  margin: 8rem;
+  width: 75%;
+  max-width: 95%;
+  display: 'flex';
+  border: 3px solid rgba(0, 0, 0, 0.445);
+  text-align: center;
+  margin-bottom: 5.5rem;
+  
+}
+

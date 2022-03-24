@@ -11,24 +11,25 @@ import InfoIcon from "@material-ui/icons/Info";
 import { Popover, Typography } from "@material-ui/core";
 import itemData from "./itemData";
 import "./Portfolio.css";
+import "../../App.css";
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: "flex",
-    flexWrap: "wrap",
-    justifyContent: "center",
-    overflow: "hidden",
-    // backgroundColor: hsla(0, 100%, 100%, 0.5),
-    height: 650,
-    margin: "4rem",
-  },
-  imageList: {
-    width: 725,
-    height: 550,
-  },
-  icon: {
-    color: "rgba(255, 255, 255, 0.54)",
-  },
+  // root: {
+  //   display: "flex",
+  //   flexWrap: "wrap",
+  //   justifyContent: "center",
+  //   overflow: "hidden",
+  //   // backgroundColor: hsla(0, 100%, 100%, 0.5),
+  //   height: 650,
+  //   margin: "4rem",
+  // },
+  // imageList: {
+  //   width: 725,
+  //   height: 550,
+  // },
+  // icon: {
+  //   color: "rgba(255, 255, 255, 0.54)",
+  // },
 }));
 
 /**
@@ -68,7 +69,7 @@ export default function TitlebarImageList() {
   const open = Boolean(anchorEl);
 
   return (
-    <div className="projectContains">
+    <div className="mainContainer">
       <div className={classes.root} id="projects">
         <h1 className="proTit" component="div">
           Previous Projects
