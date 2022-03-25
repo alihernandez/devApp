@@ -10,7 +10,7 @@ import Education from './components/Education/Education';
 import NavBar from './components/NavBar/NavBar';
 import Header from './components/Header/Header';
 import Portfolio from './components/Portfolio/Portfolio';
-import CircularDeterminate from './components/ProgressBars/ProgressBars';
+import Skills from './components/ProgressBars/Skills';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop';
 
@@ -28,7 +28,7 @@ function App() {
       <Header exact path="/about"  />
       
       <Education  />
-      <CircularDeterminate  />
+      <Skills  />
       <Portfolio  />
       <Contact path="/contact"  />
       <Footer  />

@@ -1,0 +1,25 @@
+#circles{
+  background-color: #547c57;
+  margin: 8rem auto;
+  width: 75%;
+  display: 'flex';
+  padding: 2.5rem 0;
+  border: 3px solid rgba(0, 0, 0, 0.445);
+  text-align: center;
+  
+}
+
+a {
+  font-size: 35px;
+  font-family: monospace;
+}
+a:link { /* unvisited link */ color: rgb(255, 255, 255); text-decoration: underline; border: none; }
+a:visited { /* visited link */ color: rgb(255, 251, 251); }
+a:hover { /* mouse over link */ color: #000; border: none; }
+a:active { /* active link */ color: #000; }
+
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+

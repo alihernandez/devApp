@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./Contact.css";
-import "./styles.css";
 import imgBack from "../images/contactIcon.png";
 import load1 from "../images/load2.gif";
 import axios from "axios";
 import { toast } from "react-toastify";
+import "./Contact.css";
+import "./Header/flicker.css";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -65,7 +65,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contactContains">
+    <div className="mainContainer">
     <div className="main-container" id="contactdiv">
       <div className="central-form">
         <h2 className="title">Contact form</h2>

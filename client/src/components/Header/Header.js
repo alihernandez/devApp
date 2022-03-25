@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Header.css';
-import '../styles.css';
 import './flicker.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';
@@ -16,14 +15,14 @@ export default class header extends Component {
     
       return (
 
-      <div className="mainContains" >
+      <div className="mainContainer" >
       <span id="A">Hello</span>
       <span id="A">I am Ali Hernandez</span>
       <br />
       
       <img className="selfPic" src={self} alt="devPic" />
       <br />
-      <div className='headerContains'>
+      <div className='subContainer'>
       <span>A creative fullstack developer located in the Rocky Mountains of Colorado. Working primarily with MERN stack technologies.</span>
       
       <div className="socialIcons">

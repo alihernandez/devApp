@@ -5,7 +5,6 @@ import gitIcon from '../../images/github.png';
 import linkIcon from '../../images/linkedin.png';
 import { scroller } from "react-scroll";
 import './Footer.css';
-import '../styles.css';
 
 
 
@@ -25,7 +24,7 @@ const Footer = () => {
         <div className="fContent">
         
           <p style={{textAlign:"center"}}>Please
-          submit a completed <a href="/contact">Contact Form</a> and I will reach out to you shortly to
+          submit a completed <h4>Contact Form</h4> and I will reach out to you shortly to
           discuss rates and details. </p>
         </div>
   
