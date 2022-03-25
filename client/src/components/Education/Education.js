@@ -1,6 +1,5 @@
 import React from "react";
 import './Education.css';
-import '../styles.css';
 import '../../App.css';
 
 const Education = () => {

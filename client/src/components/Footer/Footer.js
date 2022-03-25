@@ -5,7 +5,6 @@ import gitIcon from '../../images/github.png';
 import linkIcon from '../../images/linkedin.png';
 import { scroller } from "react-scroll";
 import './Footer.css';
-import '../styles.css';
 
 
 

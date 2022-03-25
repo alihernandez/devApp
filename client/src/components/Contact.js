@@ -4,7 +4,6 @@ import load1 from "../images/load2.gif";
 import axios from "axios";
 import { toast } from "react-toastify";
 import "./Contact.css";
-import "../App.css";
 
 const Contact = () => {
   const [name, setName] = useState("");

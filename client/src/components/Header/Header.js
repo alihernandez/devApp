@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Header.css';
-import '../styles.css';
 import './flicker.css';
 import gitIcon from '../../images/github48.png';
 import linkIcon from '../../images/linkedin.gif';

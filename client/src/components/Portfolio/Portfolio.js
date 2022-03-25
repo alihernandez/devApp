@@ -11,7 +11,6 @@ import InfoIcon from "@material-ui/icons/Info";
 import { Popover, Typography } from "@material-ui/core";
 import itemData from "./itemData";
 import "./Portfolio.css";
-import "../../App.css";
 
 const useStyles = makeStyles((theme) => ({
   // root: {
