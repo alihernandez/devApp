@@ -25,7 +25,7 @@ export default function NavBar(props) {
   };
 
   const scrollToSkills = () => {
-    scroller.scrollTo("circles", {
+    scroller.scrollTo("modContainer", {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",

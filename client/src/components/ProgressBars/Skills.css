@@ -9,6 +9,14 @@
   
 }
 
+a {
+  font-size: 35px;
+  font-family: monospace;
+}
+a:link { /* unvisited link */ color: rgb(255, 255, 255); text-decoration: underline; border: none; }
+a:visited { /* visited link */ color: rgb(255, 251, 251); }
+a:hover { /* mouse over link */ color: #000; border: none; }
+a:active { /* active link */ color: #000; }
 
 
 h2 {

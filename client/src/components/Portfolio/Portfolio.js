@@ -11,6 +11,7 @@ import InfoIcon from "@material-ui/icons/Info";
 import { Popover, Typography } from "@material-ui/core";
 import itemData from "./itemData";
 import "./Portfolio.css";
+import '../Header/flicker.css';
 
 const useStyles = makeStyles((theme) => ({
   // root: {
@@ -70,7 +71,7 @@ export default function TitlebarImageList() {
   return (
     <div className="mainContainer">
       <div className={classes.root} id="projects">
-        <h1 className="proTit" component="div">
+        <h1 className="proTit" component="div" id="A">
           Previous Projects
         </h1>
         <ImageList rowHeight={180} className={classes.imageList} id="pro">

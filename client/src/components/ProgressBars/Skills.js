@@ -1,12 +1,13 @@
 import React from 'react';
 import './Skills.css'
+import '../Header/flicker.css';
 
 export default function Skills() {
   
   return (
     <div className='mainContainer'>
     <div className='modContainer'>
-      <h2>Skills:</h2>
+      <h2 id="A">Skills:</h2>
       <br />
       <br />
       <div className='subContainer'> 
@@ -23,7 +24,7 @@ export default function Skills() {
       <h4>MongoDB</h4>
       <br />
       <h4>MySQL</h4>
-      <h4><a href="https://docs.google.com/document/d/1HfO7EoBMV-xKG8VwBZy7KIfKpd2i5ta-Kq9GEGOsHKE/edit?usp=sharing">Resume</a></h4>
+      <a href="https://docs.google.com/document/d/1HfO7EoBMV-xKG8VwBZy7KIfKpd2i5ta-Kq9GEGOsHKE/edit?usp=sharing">Resume</a>
       </div>
       <br />
       
