@@ -6,7 +6,7 @@ const Education = () => {
 
     return(
         <div className="mainContainer" >
-        <div className="subContainer">
+        <div className="subContainer" id="educationCont">
             <table className="educationData">
                 <h2>Education: </h2>
                 <ul>

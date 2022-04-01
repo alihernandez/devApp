@@ -77,7 +77,7 @@ const Contact = () => {
             <img src={imgBack} className="msgImg" alt="" />
           </div>
 
-          <form onSubmit={formSubmit}>
+          <form id="contactForm" onSubmit={formSubmit}>
             <p>{banner}</p>
 
             <label htmlFor="name">Name</label>

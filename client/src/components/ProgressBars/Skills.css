@@ -23,3 +23,9 @@ h2 {
   color: rgb(255, 255, 255);
 }
 
+@media screen and (max-width: 600px) {
+  a {
+    font-size: 22px;
+  }
+}
+
