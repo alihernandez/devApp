@@ -9,6 +9,20 @@ import weatherAPI from '../../images/weatherAPI.png';
 
 const itemData = [
     {
+        img:  gitsiesPage ,
+        title: "Website for local coffee truck",
+        description: "Web app for Gitsie's Coffee and Provisions.",
+        link: 'https://gitsies-coffee.herokuapp.com/',
+        cols: 2,
+    },
+    {
+        img:  weatherAPI ,
+        title: 'Weather Forecast Web App',
+        description: 'Weather dashboard for user to search current forecast by typing city name into search bar',
+        link:"https://alihernandez.github.io/WeatherAPI/",
+        cols: 2,
+    },
+    {
         img:  dayPlanner ,
         title: 'Day Planner',
         description: 'Daily planner for user to plan out day by the hour. Color coded so user has visual if time block is in past, present, or future. User is able to store hourly plans in local storage.',
@@ -22,13 +36,7 @@ const itemData = [
         link:'https://falconreid.github.io/EventSmash/index.html',
         cols: 2,
     },
-    {
-        img:  gitsiesPage ,
-        title: "Gitsie's Coffee and Provisions",
-        description: "Web app for Gitsie's Coffee and Provisions.",
-        link: 'https://gitsies-coffee.herokuapp.com/',
-        cols: 2,
-    },
+   
     {
         img:  readmeGen ,
         title: 'README Generator',
@@ -36,13 +44,7 @@ const itemData = [
         link:"https://github.com/alihernandez/readmeGenerator",
         cols: 2,
     },
-    {
-        img:  weatherAPI ,
-        title: 'Weather Forecast Web App',
-        description: 'Weather dashboard for user to search current forecast by typing city name into search bar',
-        link:"https://alihernandez.github.io/WeatherAPI/",
-        cols: 2,
-    },
+    
     {
         img:  passwordGen ,
         title: 'Password Generator',
