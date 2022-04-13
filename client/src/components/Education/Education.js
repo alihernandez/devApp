@@ -1,31 +1,27 @@
 import React from "react";
-import './Education.css';
-
+import "./Education.css";
 
 const Education = () => {
+  return (
+    <div className="mainContainer">
+      <div className="subContainer" id="educationCont">
+        <h2>Education:</h2>
+        <div className="educationData">
+          <ul>
+            <p>University of Denver Full Stack Coding Bootcamp</p>
+            <p>December '20</p>
+          </ul>
 
-    return(
-        <div className="mainContainer" >
-        <div className="subContainer" id="educationCont">
-            <table className="educationData">
-                <h2>Education: </h2>
-                <ul>
-                    <p>University of Denver Full Stack Coding Bootcamp</p>
-                    <p>December '20</p>
-                </ul>
-            </table>
-            <table className="educationData">
-                <h2>Contact: </h2>
-                <ul>
-                    <p id="emailAdd">ali.hernandez9two@gmail.com</p>
-                </ul>
-            </table>
-            
+          <h2>Contact: </h2>
+
+          <ul>
+            <p id="emailAdd">ali.hernandez9two@gmail.com</p>
+          </ul>
         </div>
-        </div>
-        
-    )
-}
+      </div>
+    </div>
+  );
+};
 
 export default Education;
 
