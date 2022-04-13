@@ -8,7 +8,7 @@ import itemData from './itemData.js';
 
 export default function Portfolio() {
   return (
-    <ImageList id="projects" sx={{ width: 500, height: 650 }}>
+    <ImageList id="projects" sx={{ width: 100, height: 650 }}>
       {itemData.map((item) => (
         <ImageListItem className="projectContains" key={item.img} >
           <img
@@ -17,7 +17,8 @@ export default function Portfolio() {
             alt={item.title}
             loading="lazy"
           />
-          
+         
+
           <ImageListItemBar
             subtitle={item.title}
             title={<a href={item.link}>Project</a>}
