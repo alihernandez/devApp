@@ -28,11 +28,18 @@ router.post('/contact', (req, res)=> {
 
     //create a transporter
     let smtpTransport = nodemailer.createTransport({
-        host: "smtp.mailtrap.io",
-        port: 2525,
+        host: "smtp.mail.yahoo.com",
+        logger: true,
+    debug: true,
+        secure: true,
+        port: 465,
         auth: {
           user: process.env.user,
           pass: process.env.pass
+        },
+        tls: {
+            // do not fail on invalid certs
+            rejectUnauthorized: false
         }
     })
 
